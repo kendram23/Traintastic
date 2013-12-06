@@ -18,6 +18,12 @@ class Train
   def trip_duration(distance)
     distance / @speed
   end
+
+  #COMMENTS!!!
+
+  def trip_distance(duration)
+  	@speed * duration
+  end
   
 	# Returns the String type of power for this train.
 	def power_source
